@@ -60,4 +60,4 @@ main = do
             forever $ do
                 nextEvent display e
                 getEvent e >>= print
-                lookupString (asKeyEvent e) >>= print
+                -- lookupString (asKeyEvent e) >>= print
