@@ -36,7 +36,6 @@ library:
   source-dirs: src
   dependencies:
   - X11
-  - containers
 
 executables:
   hs-key-stats:
@@ -81,7 +80,6 @@ benchmarks:
     main: Main.hs
     ghc-options: -O2 -rtsopts -with-rtsopts=-K1K
     dependencies:
-    - hs-key-stats
 
     ## BENCHMARK related
     - criterion

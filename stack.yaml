@@ -67,7 +67,7 @@ packages:
 # compiler-check: newer-minor
 
 docker:
-    enable: true
+    enable: false
 
 nix:
     enable: false
